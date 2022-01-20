@@ -1,7 +1,5 @@
 # cours-animation-web-
-- Accueil 
-##cours 01
--vcsode
--githup desktop
-----
-## COURS 02
+## cours 01
+- accueil 
+- vscode
+- github desktop 
