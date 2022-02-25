@@ -1,0 +1,51 @@
+span{ 
+    color: crimson;
+}
+
+p{
+    color: darkolivegreen;
+}
+
+h1{
+    color: blue;
+}
+
+
+p, h1, span{
+    color: grey;
+
+}
+p span{
+    color: aquamarine;
+}
+body *{
+    color: black;
+}
+.exemple{
+    color: chocolate;
+}
+#monId{
+    color: yellow;
+    font-size: xx-large;
+}
+.class_01{
+width: 100px;
+height: 100px;
+background-color: red;
+border-color:deepskyblue;
+border:5px solid;
+}
+
+.class_01 p{
+    color:forestgreen;
+
+
+}
+.deux {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+
+     
+    }
+

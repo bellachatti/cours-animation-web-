@@ -1,0 +1,233 @@
+body{
+
+}
+
+.page-accueil{
+    background-color:#CE75EE;
+
+}
+.page-galerie{
+    background-color:#CE75EE ;
+
+    
+}
+.page-présentation {
+    background-color:#CC9AE6;
+
+
+}
+
+.hello{
+    color: black; 
+   
+    font-size: 200px;
+
+}
+.section-accueil{
+    display: flex;
+    flex-direction: column;
+
+}
+    
+.wrapper-animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-decoration: none;
+}
+
+.transparance{
+    animation:transparancebienvenue 3s linear forwards;
+
+}
+@keyframes transparancebienvenue {
+    0%{opacity:0 ;transform: translate(-25%);}
+    100%{opacity:1 ;transform: translate(0%);
+
+    }
+}
+
+.présentation{height: 200px;
+    width: 200px;
+    animation: présentation 3s linear;
+
+}
+
+@keyframes présentation {
+    0%{ transform:translate(0%)}
+    100%{transform:translate(600%)}
+  }
+
+
+
+.animation{
+    
+    height: 100px;
+    width: 200px;
+animation:animation-présentation  3s linear ;
+    
+}
+@keyframes animation-présentation {
+    0%{ transform:translate(0%)}
+    100%{transform:translate(600%)}
+  }
+  
+
+
+
+
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+    
+}
+.replay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border:2px solid black ;
+}
+
+.gatineau
+{box-sizing: border-box;
+    border: 3px solid black;
+   width: 100%;
+
+
+    
+}
+
+.wrapper-paysage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    left: 50%; 
+    transform: translate(-50%);
+    justify-content: space-evenly;
+}
+.payssage{
+    flex-basis: 35%;
+}
+.plage{box-sizing: border-box;
+    border: 3px solid black;
+    
+    width: 100%;    
+}
+
+.beach{box-sizing: border-box;
+    border: 3px solid black;
+    width: 100%;
+   
+
+}
+.plage2{box-sizing: border-box;
+    border: 3px solid black;
+    width: 100%;
+
+
+}
+.wrapper-mode{  display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: center;
+
+
+    }
+
+.mode{flex-basis: 50%;
+}
+
+.sac1{box-sizing: border-box;
+    border: 3px solid black;
+    width:100%;
+
+}
+.sac2{box-sizing: border-box;
+    border: 3px solid black;
+    width: 100%;
+    
+}
+.sac3{box-sizing: border-box;
+    border: 3px solid black;
+    width: 100%;}
+
+
+
+
+
+
+.wrapper-portrait{display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: center;
+
+}
+.portrait{flex-basis: 50%;
+    box-sizing: border-box;
+}
+.portrait-trois{
+    flex-basis: 75%;
+}
+
+.famille1{box-sizing: border-box;
+    border: 3px solid black;
+    width: 100%;
+    
+}
+
+.famille2{
+    box-sizing: border-box;
+    border: 3px solid black;
+width: 100%; }
+   
+
+
+
+.famille3{ box-sizing: border-box;
+    border: 3px solid black;
+    width: 100%;
+}
+
+
+.formation {
+    
+    height: 100px;
+    width:  75px;
+}
+.lien-galerie{
+    position: relative;
+    left: 40%;
+font-size:20px;
+color: black;
+
+}
+.lien-portrait{
+    position: relative;
+    left: 40%;
+    Font-size:20px;
+color: black;
+
+    
+}
+.lien-mode{
+    position: relative;
+    left:40% ;
+    Font-size:20px;
+color: black;
+}
